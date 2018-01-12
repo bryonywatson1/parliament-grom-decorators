@@ -22,6 +22,32 @@ describe Parliament::Grom::Decorator::Person, vcr: true do
     end
   end
 
+  describe '#questions' do
+    before(:each) do
+      response = Parliament::Request::UrlRequest.new(base_url: 'http://localhost:3030/api/v1',
+      builder: Parliament::Builder::NTripleResponseBuilder,
+      decorators: Parliament::Grom::Decorator).person_by_id.get
+      # N.B. Different 'get' request following change in data API
+      @people_nodes = response.filter('https://id.parliament.uk/schema/Person')
+    end
+
+    context 'Grom::Node has all the required objects' do
+      it 'returns the questions for a Grom::Node object of type Person' do
+        person_node = @people_nodes.first
+
+        expect(person_node.questions.size).to eq(1)
+      end
+    end
+
+    context 'Grom::Node has no questions' do
+      it 'returns an empty array' do
+        person_node = @people_nodes.first
+
+        expect(person_node.questions).to eq([])
+      end
+    end
+  end
+
   describe '#incumbencies' do
     before(:each) do
       @people_nodes = response.filter('https://id.parliament.uk/schema/Person')

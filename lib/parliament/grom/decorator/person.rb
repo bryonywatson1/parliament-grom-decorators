@@ -57,6 +57,13 @@ module Parliament
             show_placeholder ? 'placeholder' : nil
           end
         end
+        
+        # Alias asks with fallback.
+        #
+        # @return [Array, Array] all the incumbencies of the Grom::Node or an empty array.
+        def questions
+          respond_to?(:asks) ? asks : []
+        end
 
         # Alias memberHasParliamentaryIncumbency with fallback.
         #
