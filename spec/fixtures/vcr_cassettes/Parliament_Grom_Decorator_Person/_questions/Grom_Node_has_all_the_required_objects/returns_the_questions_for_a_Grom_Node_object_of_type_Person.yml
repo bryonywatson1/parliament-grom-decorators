@@ -24,11 +24,11 @@ http_interactions:
       Content-Disposition:
       - inline; filename="index"
       Last-Modified:
-      - Fri, 12 Jan 2018 15:29:11 GMT
+      - Mon, 15 Jan 2018 13:12:46 GMT
       X-Content-Type-Options:
       - nosniff
       Content-Length:
-      - '25949'
+      - '34427'
     body:
       encoding: UTF-8
       string: "<https://id.parliament.uk/43RHonMf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
@@ -104,7 +104,7 @@ http_interactions:
         <https://id.parliament.uk/XeUZ7frj> .\r\n<https://id.parliament.uk/XeUZ7frj>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/OppositionPosition>
         .\r\n<https://id.parliament.uk/XeUZ7frj> <https://id.parliament.uk/schema/positionName>
-        \"Shadow Minister (Public Health)\" .\r\n<https://id.parliament.uk/43RHonMf>
+        \"Shadow Minister (Public Health)\" .\r\n\r\n<https://id.parliament.uk/43RHonMf>
         <https://id.parliament.uk/schema/asks> <https://id.parliament.uk/NLt1spRT>
         .\r\n<https://id.parliament.uk/NLt1spRT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/NLt1spRT>
@@ -115,9 +115,10 @@ http_interactions:
         <https://id.parliament.uk/schema/unstarredAt> \"2017-07-27+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
         .\r\n<https://id.parliament.uk/np789080> <https://id.parliament.uk/schema/oralUnreachedAt>
         \"2017-08-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/NLt1spRT>
-        <https://id.parliament.uk/schema/heading> \"Hellooooooo heading\" .\r\n<https://id.parliament.uk/NLt1spRT>
-        <https://id.parliament.uk/schema/questionText> \"Hellooooooo question text\"
-        .\r\n<https://id.parliament.uk/NLt1spRT> <https://id.parliament.uk/schema/isWithdrawn>
+        <https://id.parliament.uk/schema/heading> \"Prosperity Fund\" .\r\n<https://id.parliament.uk/NLt1spRT>
+        <https://id.parliament.uk/schema/questionText> \"To ask the Secretary of State
+        for International Trade, what role his Department plays in the management
+        of the Prosperity Fund.\" .\r\n<https://id.parliament.uk/NLt1spRT> <https://id.parliament.uk/schema/isWithdrawn>
         \"true\" .\r\n<https://id.parliament.uk/NLt1spRT> <https://id.parliament.uk/schema/dateForAnswer>
         \"2017-12-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/NLt1spRT>
         <https://id.parliament.uk/schema/isDateForAnswerNamed> \"true\" .\r\n<https://id.parliament.uk/NLt1spRT>
@@ -133,20 +134,117 @@ http_interactions:
         <https://id.parliament.uk/43RHonMf> .\r\n<https://id.parliament.uk/T1pnfr65>
         <https://id.parliament.uk/schema/hasAnswerType> <https://id.parliament.uk/123j567l>
         .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/answerText>
-        \"this is the answer text\" .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/delegatedAnswer>
-        <https://id.parliament.uk/np123lkp> .\r\n<https://id.parliament.uk/np123lkp>
+        \"The Department for International Trade (DIT) plays a key role in the Fund.
+        Minister Hands represents the department on the Ministerial Board, which sets
+        the strategic direction of the Fund, endorses programme proposals, and ensures
+        programmes are maximising impact and value for money.\" .\r\n<https://id.parliament.uk/T1pnfr65>
+        <https://id.parliament.uk/schema/delegatedAnswer> <https://id.parliament.uk/np123lkp>
+        .\r\n<https://id.parliament.uk/np123lkp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/DelegatedAnswer> .\r\n<https://id.parliament.uk/np123lkp>
+        <https://id.parliament.uk/schema/delegatedTo> <https://id.parliament.uk/1234ghghg>
+        .\r\n<https://id.parliament.uk/1234ghghg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/ArmsLengthBody> .\r\n<https://id.parliament.uk/T1pnfr65>
+        <https://id.parliament.uk/schema/refersToDocument> <https://id.parliament.uk/phphl567>
+        .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/refersToLibraryDeposit>
+        <https://id.parliament.uk/k789hg49> .\r\n<https://id.parliament.uk/T1pnfr65>
+        <https://id.parliament.uk/schema/answeringBody> <https://id.parliament.uk/h78g9000>
+        .\r\n<https://id.parliament.uk/h78g9000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/AnsweringBody> .\r\n<https://id.parliament.uk/T1pnfr65>
+        <https://id.parliament.uk/schema/isOralAnswer> \"false\" .\r\n\r\n<https://id.parliament.uk/43RHonMf>
+        <https://id.parliament.uk/schema/asks> <https://id.parliament.uk/xp125GHF>
+        .\r\n<https://id.parliament.uk/xp125GHF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/answerExpectedAs> <https://id.parliament.uk/ttYp65jh>
+        .\r\n<https://id.parliament.uk/ttYp65jh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnswerExpectedAs> .\r\n<https://id.parliament.uk/ttYp65jh>
+        <https://id.parliament.uk/schema/isOralAnswerExpected> \"true\" .\r\n<https://id.parliament.uk/ttYp65jh>
+        <https://id.parliament.uk/schema/unstarredAt> \"2017-07-27+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ttYp65jh> <https://id.parliament.uk/schema/oralUnreachedAt>
+        \"2017-08-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/heading> \"USA: State Visits\" .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/questionText> \"What recent discussions he
+        has had with Cabinet colleagues on President Trump\\u2019s proposed state
+        visit to the UK.\" .\r\n<https://id.parliament.uk/xp125GHF> <https://id.parliament.uk/schema/isWithdrawn>
+        \"true\" .\r\n<https://id.parliament.uk/xp125GHF> <https://id.parliament.uk/schema/dateForAnswer>
+        \"2017-12-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/isDateForAnswerNamed> \"true\" .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/isQuestionSubstantive> \"false\" .\r\n<https://id.parliament.uk/xp125GHF>
+        <https://id.parliament.uk/schema/allocation> <https://id.parliament.uk/ht7856hj>
+        .\r\n<https://id.parliament.uk/ht7856hj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AllocatedAnsweringBody> .\r\n<https://id.parliament.uk/ht7856hj>
+        <https://id.parliament.uk/schema/allocatedTo> <https://id.parliament.uk/gg7867hj>
+        .\r\n<https://id.parliament.uk/xp125GHF> <https://id.parliament.uk/schema/inPursuantTo>
+        <https://id.parliament.uk/kkl0prjk> .\r\n<https://id.parliament.uk/kkl0prjk>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/answeringMember>
+        <https://id.parliament.uk/43RHonMf> .\r\n<https://id.parliament.uk/kkl0prjk>
+        <https://id.parliament.uk/schema/hasAnswerType> <https://id.parliament.uk/123j567l>
+        .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/answerText>
+        \"The Government\\u2019s position on the visit remains clear. An invitation
+        for the President to visit the UK has been extended and accepted. Ministers
+        and officials in both countries regularly engage with one another on the full
+        range of issues. The precise timing and programme of a visit are yet to be
+        finalised.\" .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/delegatedAnswer>
+        <https://id.parliament.uk/pq908456> .\r\n<https://id.parliament.uk/pq908456>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/DelegatedAnswer>
-        .\r\n<https://id.parliament.uk/np123lkp> <https://id.parliament.uk/schema/delegatedTo>
-        <https://id.parliament.uk/1234ghghg> .\r\n<https://id.parliament.uk/1234ghghg>
+        .\r\n<https://id.parliament.uk/pq908456> <https://id.parliament.uk/schema/delegatedTo>
+        <https://id.parliament.uk/dfIO9950> .\r\n<https://id.parliament.uk/dfIO9950>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/ArmsLengthBody>
-        .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/refersToDocument>
-        <https://id.parliament.uk/phphl567> .\r\n<https://id.parliament.uk/T1pnfr65>
+        .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/refersToDocument>
+        <https://id.parliament.uk/phphl567> .\r\n<https://id.parliament.uk/kkl0prjk>
         <https://id.parliament.uk/schema/refersToLibraryDeposit> <https://id.parliament.uk/k789hg49>
-        .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/answeringBody>
-        <https://id.parliament.uk/h78g9000> .\r\n<https://id.parliament.uk/h78g9000>
+        .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/answeringBody>
+        <https://id.parliament.uk/gg7867hj> .\r\n<https://id.parliament.uk/gg7867hj>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/AnsweringBody>
-        .\r\n<https://id.parliament.uk/T1pnfr65> <https://id.parliament.uk/schema/isOralAnswer>
-        \"false\" .\r\n<https://id.parliament.uk/43RHonMf> <https://id.parliament.uk/schema/oppositionPersonHasOppositionIncumbency>
+        .\r\n<https://id.parliament.uk/kkl0prjk> <https://id.parliament.uk/schema/isOralAnswer>
+        \"false\" .\r\n\r\n<https://id.parliament.uk/43RHonMf> <https://id.parliament.uk/schema/asks>
+        <https://id.parliament.uk/puf675HG> .\r\n<https://id.parliament.uk/puf675HG>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/puf675HG> <https://id.parliament.uk/schema/answerExpectedAs>
+        <https://id.parliament.uk/HG56RH78> .\r\n<https://id.parliament.uk/HG56RH78>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/AnswerExpectedAs>
+        .\r\n<https://id.parliament.uk/HG56RH78> <https://id.parliament.uk/schema/isOralAnswerExpected>
+        \"true\" .\r\n<https://id.parliament.uk/HG56RH78> <https://id.parliament.uk/schema/unstarredAt>
+        \"2017-07-27+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/HG56RH78>
+        <https://id.parliament.uk/schema/oralUnreachedAt> \"2017-08-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/puf675HG> <https://id.parliament.uk/schema/heading>
+        \"Africa: Diplomatic Relations\" .\r\n<https://id.parliament.uk/puf675HG>
+        <https://id.parliament.uk/schema/questionText> \"What his diplomatic priorities
+        are for Africa after the UK leaves the EU.\" .\r\n<https://id.parliament.uk/puf675HG>
+        <https://id.parliament.uk/schema/isWithdrawn> \"true\" .\r\n<https://id.parliament.uk/puf675HG>
+        <https://id.parliament.uk/schema/dateForAnswer> \"2017-12-12+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/puf675HG> <https://id.parliament.uk/schema/isDateForAnswerNamed>
+        \"true\" .\r\n<https://id.parliament.uk/puf675HG> <https://id.parliament.uk/schema/isQuestionSubstantive>
+        \"false\" .\r\n<https://id.parliament.uk/puf675HG> <https://id.parliament.uk/schema/allocation>
+        <https://id.parliament.uk/p6HKUUIP> .\r\n<https://id.parliament.uk/p6HKUUIP>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/AllocatedAnsweringBody>
+        .\r\n<https://id.parliament.uk/p6HKUUIP> <https://id.parliament.uk/schema/allocatedTo>
+        <https://id.parliament.uk/ppyeHKFD> .\r\n<https://id.parliament.uk/puf675HG>
+        <https://id.parliament.uk/schema/inPursuantTo> <https://id.parliament.uk/l56709kJ>
+        .\r\n<https://id.parliament.uk/l56709kJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Answer> .\r\n<https://id.parliament.uk/l56709kJ>
+        <https://id.parliament.uk/schema/answeringMember> <https://id.parliament.uk/43RHonMf>
+        .\r\n<https://id.parliament.uk/l56709kJ> <https://id.parliament.uk/schema/hasAnswerType>
+        <https://id.parliament.uk/123j567l> .\r\n<https://id.parliament.uk/l56709kJ>
+        <https://id.parliament.uk/schema/answerText> \"UK and EU priorities in Africa
+        will remain aligned, which makes a strong case for post-exit co-operation
+        in certain areas. We will identify areas in which the UK can act more effectively
+        bilaterally, which will transform the way we engage with Africa and demonstrate
+        that we remain one of the leading international partners for the continent.\"
+        .\r\n<https://id.parliament.uk/l56709kJ> <https://id.parliament.uk/schema/delegatedAnswer>
+        <https://id.parliament.uk/ORB1890g> .\r\n<https://id.parliament.uk/ORB1890g>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/DelegatedAnswer>
+        .\r\n<https://id.parliament.uk/ORB1890g> <https://id.parliament.uk/schema/delegatedTo>
+        <https://id.parliament.uk/00JTYo56> .\r\n<https://id.parliament.uk/00JTYo56>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/ArmsLengthBody>
+        .\r\n<https://id.parliament.uk/l56709kJ> <https://id.parliament.uk/schema/refersToDocument>
+        <https://id.parliament.uk/phphl567> .\r\n<https://id.parliament.uk/l56709kJ>
+        <https://id.parliament.uk/schema/refersToLibraryDeposit> <https://id.parliament.uk/k789hg49>
+        .\r\n<https://id.parliament.uk/l56709kJ> <https://id.parliament.uk/schema/answeringBody>
+        <https://id.parliament.uk/ppyeHKFD> .\r\n<https://id.parliament.uk/ppyeHKFD>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/AnsweringBody>
+        .\r\n<https://id.parliament.uk/l56709kJ> <https://id.parliament.uk/schema/isOralAnswer>
+        \"false\" .\r\n\r\n<https://id.parliament.uk/43RHonMf> <https://id.parliament.uk/schema/oppositionPersonHasOppositionIncumbency>
         <https://id.parliament.uk/ijaory61> .\r\n<https://id.parliament.uk/ijaory61>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/OppositionIncumbency>
         .\r\n<https://id.parliament.uk/ijaory61> <https://id.parliament.uk/schema/incumbencyStartDate>
@@ -306,5 +404,5 @@ http_interactions:
         <https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat> <https://id.parliament.uk/0BhROnYP>
         .\r\n"
     http_version: 
-  recorded_at: Fri, 12 Jan 2018 17:10:27 GMT
+  recorded_at: Mon, 15 Jan 2018 13:13:10 GMT
 recorded_with: VCR 3.0.3

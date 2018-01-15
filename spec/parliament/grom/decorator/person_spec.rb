@@ -35,7 +35,7 @@ describe Parliament::Grom::Decorator::Person, vcr: true do
       it 'returns the questions for a Grom::Node object of type Person' do
         person_node = @people_nodes.first
 
-        expect(person_node.questions.size).to eq(1)
+        expect(person_node.questions.size).to eq(3)
       end
     end
 
