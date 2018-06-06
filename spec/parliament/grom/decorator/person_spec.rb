@@ -287,7 +287,7 @@ describe Parliament::Grom::Decorator::Person, vcr: true do
 
   describe '#gender_identities' do
     context 'Grom::Node has all the required objects' do
-      it 'returns the contact points for a Grom::Node object of type Person' do
+      it 'returns the gender identities for a Grom::Node object of type Person' do
         expect(person_node.gender_identities.size).to eq(1)
         expect(person_node.gender_identities.first.type).to eq('https://id.parliament.uk/schema/GenderIdentity')
       end
@@ -303,7 +303,7 @@ describe Parliament::Grom::Decorator::Person, vcr: true do
   describe '#gender' do
     context 'Grom::Node has all the required objects' do
       it 'returns the gender for a Grom::Node object of type Person' do
-        expect(person_node.gender.genderName).to eq('F')
+        expect(person_node.gender.genderName).to eq('Female')
         expect(person_node.gender.type).to eq('https://id.parliament.uk/schema/Gender')
       end
     end
@@ -314,6 +314,43 @@ describe Parliament::Grom::Decorator::Person, vcr: true do
       end
     end
   end
+
+  describe '#gender_name' do
+    context 'Grom::Node has all the required objects' do
+      it 'returns the gender name for a Grom::Node object of type Person' do
+        expect(person_node.gender_name).to eq('Female')
+      end
+    end
+
+    context 'Grom::Node has no gender name' do
+      it 'returns nil' do
+        expect(person_node.gender_name).to be(nil)
+      end
+    end
+  end
+
+  describe '#pronoun' do
+    context 'Grom::Node has all the required objects' do
+      context 'gender name is female' do
+        it 'returns the pronoun for a Grom::Node object of type Person' do
+          expect(person_node.pronoun).to eq('She')
+        end
+      end
+
+      context 'gender name is male' do
+        it 'returns the pronoun for a Grom::Node object of type Person' do
+          expect(person_node.pronoun).to eq('He')
+        end
+      end
+    end
+
+    context 'Grom::Node has no gender name' do
+      it 'returns they' do
+        expect(person_node.pronoun).to eq('They')
+      end
+    end
+  end
+
 
   describe '#statuses' do
     context 'Grom::Node has a current seat incumbency' do
